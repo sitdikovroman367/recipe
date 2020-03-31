@@ -1,0 +1,44 @@
+.del-select-ingred{
+    display: inline-block;
+    cursor: pointer;
+    color: red;
+}
+.select-ingredient{
+    display: flex;
+    align-content: space-around;
+}
+#hidden-ingred-tmp{
+    display: none;
+}
+.button-ingr-act{
+    display: flex;
+    justify-content: space-around;
+}
+.alert-danger-custom{
+    position: fixed;
+    top:0;
+    left: 50%;
+    z-index: 99999;
+}
+.view-main{
+    font-size: 40px;
+ }
+.delete-newRel,.delete-rel{
+    color: red !important;
+    cursor: pointer;
+}
+.left-column{
+    font-size: 50px;
+    font-weight: bold;
+    color: #0b2e13;
+}
+.left-link {
+    margin-top: 20px;
+    background-color: darkgrey;
+}
+.container{
+    display: flex;
+}
+.logout-btn{
+    font-size: 20px;
+}
